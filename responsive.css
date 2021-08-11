@@ -1,0 +1,142 @@
+@media all and (max-width: 1000px) {
+  
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+
+    .lesson-wrapper h1 {
+        font-size: 30;
+    }
+
+    .foot {
+      width: 50%;	
+      margin-bottom: 40px;
+    }
+  
+    .foot h1 {
+      font-size: 15px;
+    }
+  
+    .font p {
+      font-size: 8px;
+    }
+  
+    .footer{
+      height: 450px;
+    }
+  }
+  
+  @media all and (max-width : 800px){
+
+      .sosial-media .icon.facebook, .sosial-media .icon.twitter {
+          width: 50%;
+          padding: 10px 0;
+      }
+
+      .sosial-media .icon.whatsapp{
+          width: 100%;
+          padding: 10px 0;
+      }
+
+      .sosial-media .icon img{
+          width: 100px;
+          height: 100px;
+      }
+
+      .reservasi{
+          height: 800px;
+      }
+  }
+  
+  @media all and (max-width: 670px) {
+    
+    #header-right {
+      display:none;
+    }
+    
+    #menu-icon {
+      display:block;
+    }
+
+    .top-wrapper h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+    .top-wrapper p {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .order {
+        margin-top: 150px;
+        margin-left: 0;
+        margin-right: 90px;
+    }
+
+    .lesson-wrapper{
+      height: 700px;
+    }
+
+    .lesson-wrapper h1 {
+        font-size: 23;
+    }
+    .heading-text h2{
+      text-align: center;
+      font-size: 45px;
+     }
+
+    .sosial-media{
+        width: 100%;
+    }
+
+    .sosial-media .icon.facebook, .sosial-media .icon.twitter {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    .sosial-media .icon.whatsapp{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .form-pure{
+        width: 100%;
+    }
+
+    .reservasi{
+        height: 1100px;
+    }
+
+    .footer{
+      height: 710px;
+    }
+  
+    .footer-list{
+      width: 100%;
+    }
+  
+    .footer-logo{
+      float: left;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .foot {
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .foot h1 {
+      font-size: 10px;
+      line-height: 30px;
+    }
+  
+    .font p {
+      font-size: 5px;
+      line-height: 18px;
+    }
+  }
