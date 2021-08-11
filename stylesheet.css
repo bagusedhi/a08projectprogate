@@ -1,0 +1,345 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+  
+a {
+    text-decoration: none;
+}
+
+.clear {            
+ clear: left;
+}
+
+.container {
+    max-width : 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(105, 59, 26, 0.88);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo {
+    width: 65px;
+    /* margin-top: -50px; */
+}
+  
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+  
+.header-right a {
+    line-height: 50px;
+    padding: 0 50px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+  
+.header-right a:hover {
+    background-color: rgba(105, 59, 26, 0.6);
+}
+
+#menu-icon {            
+    color: rgb(253, 245, 245);            
+    float: right;            
+    font-size: 25px;            
+    padding: 13px 0;
+    display: none; 
+}
+
+/* ============================= 
+        Main + Body
+==============================*/
+
+.top-wrapper {
+    height: 657px;
+    padding: 180px 0 100px 0;
+    background-image: url(https://www.coffeeandkidscompany.co.za/wp-content/uploads/2016/06/website-background-coffee.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+.top-wrapper p {
+    font-size: 20px;
+}
+
+.lesson-wrapper {
+    height: 657px;
+    background-image: url(https://images.unsplash.com/photo-1453614512568-c4024d13c247?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80);
+    background-size: cover;
+    border-top: 3px solid rgb(88, 49, 16);
+}
+
+.order {
+    margin: 110px 0 0 80px;
+    background-color:rgba(165, 124, 95, 0.4);
+    padding: 20px ;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.lesson-wrapper h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 130%;
+    color:rgb(92, 36, 11);
+}
+
+.btn {
+    color: white;
+    padding: 12px 35px;
+    border-radius: 6px;
+    display: inline-flex;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: rgba(88, 49, 16, 1);
+    box-shadow: -4px 4px rgba(124, 77, 36, 1);
+}
+
+.shopnow {
+    margin-top: 30px;
+    background-color: rgba(88, 49, 16, 0.8);
+    box-shadow: -4px 4px rgba(124, 77, 36, 0.8);
+}
+
+.shopnow:active {
+    position: relative;
+    top: 4px;
+    right: 4px;
+    box-shadow: none;
+}
+
+.message-wrapper {
+    height: 500px;
+}
+
+h2.head{
+    font-weight: normal;
+    font-family: 'Style Script', cursive;
+    color: white;
+}
+
+.heading-text h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.reservasi{
+    background-image: url('https://media.suara.com/pictures/653x366/2017/03/22/63614-barista-sedang-membuat-caffe-latte-art.jpg');
+    background-size: cover;
+    border-bottom: 1px solid #eee;
+    padding-top: 20px;
+    /* margin-top: -5px; */
+    padding-bottom: 80px;
+    text-align: center;
+    height: 700px;
+}
+
+.reservasi .heading-text h2 {
+    text-shadow: 2px 2px chocolate;
+}
+
+.sosial-media{
+    float: left;
+    width: 50%;
+}
+
+.sosial-media .icon{
+    float: left;
+    width: 33%;
+}
+
+.sosial-media .icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.sosial-media h2{
+    font-size: 38px;
+}
+
+.form-pure{
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width:50%;
+    padding: 10px 5px;
+    float: right;
+}
+
+input[type=text], select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 95%;
+    background-color: chocolate;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  label{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  /* ========================================= 
+                Tombol Submit
+  ========================================= */
+  .tombol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tombol li {
+        --c: chocolate;
+        color: var(--c);
+        font-size: 16px;
+        border: 0.3em solid var(--c);
+        border-radius: 0.5em;
+        width: 12em;
+        height: 3em;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-family: sans-serif;
+        letter-spacing: 0.1em;
+        text-align: center;
+        line-height: 3em;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: 0.5s;
+        margin: 1em;
+    }
+
+    .tombol li span {
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        background-color: var(--c);
+        transform: translateY(150%);
+        border-radius: 50%;
+        left: calc((var(--n) - 1) * 25%);
+        transition: 0.5s;
+        transition-delay: calc((var(--n) - 1) * 0.1s);
+        z-index: -1;
+    }
+
+    .tombol li:hover {
+        color: black;
+    }
+
+    .tombol li:hover span {
+        transform: translateY(0) scale(2);
+    }
+
+    .tombol li span:nth-child(1) {
+        --n: 1;
+    }
+
+    .tombol li span:nth-child(2) {
+        --n: 2;
+    }
+
+    .tombol li span:nth-child(3) {
+        --n: 3;
+    }
+
+    .tombol li span:nth-child(4) {
+        --n: 4;
+    }
+
+    footer {
+        margin: -8px -8px;
+    }
+    
+    .footer {
+        height: 260px;
+        background-color: #A0522D;
+        color: #F0F8FF;
+        padding: 30px 30px 60px 30px;
+    }
+    
+    .footer-logo{
+        float: left;
+        width: 50%;
+    }
+    
+    .footer-logo img{
+        width: 200px;
+    }
+    
+    .footer-list {
+        float: right;
+        width: 50%;
+    }
+    
+    .footer-list li{
+        padding-bottom: 20px;
+    }
+    
+    .foot {
+        float: left;
+        padding: 10px 20px;
+        width: 30%;
+    }
+    
+    .foot h1 {
+        font-size: 14px;
+        border-bottom: 2px solid #F0F8FF;
+        text-align: center;
+    }
+    
+    .foot p {
+        font-size: 13px;
+        text-align: left;
+    }
